@@ -13,7 +13,6 @@
 /* INIZIO HEADER */
 header {
     background-position: lightblue;
-    height: 200px
 }
 
 .headertop {
@@ -22,17 +21,49 @@ header {
 }
 
 .headerright {
-    background-color: green;
+    border: 1px solid black;
     width: 50%;
     float: left;
     height: 100px;
 }
 
+.onleft {
+    padding: 40px;
+}
+
+.lenguage {
+    color: #3399ff;
+    font-size: 25px;
+    line-height: 100%;
+}
+
 .headerleft {
-    background-color: pink;
+    border: 1px solid black;
     width: 50%;
     float: left;
     height: 100px;
+}
+
+.barright {
+    float: right;
+}
+
+.bottonlogin {
+    background-color: #fff;
+    border: 1px solid #ff7a59;
+    color: #ff7a59;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+.bottonfree {
+    background-color: #ff7a59;
+    border: 1px solid #ff7a59;
+    color: #fff;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 2px;
 }
 
 .headerbottom {
