@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    border: 2px solid black;
+    height: 100%;
+}
+/* INIZIO HEADER */
+header {
+    background-position: lightblue;
+    height: 200px
+}
+
+.headertop {
+    background-color: #e6e6e6;
+    height: 100px;
+}
+
+.headerright {
+    background-color: green;
+    width: 50%;
+    float: left;
+    height: 100px;
+}
+
+.headerleft {
+    background-color: pink;
+    width: 50%;
+    float: left;
+    height: 100px;
+}
+
+.headerbottom {
+    background-color: #d9d9d9;
+    height: 100px;
+}
+ /* INIZIO SECTION */
+section {
+    background-color: #6699ff;
+    height: 120px;
+}
+
+/* INIZIO MAIN */
+main {
+    background-color: #ffddcc;
+    height: 500px;
+}
